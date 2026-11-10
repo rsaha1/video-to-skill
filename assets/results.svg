@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 668" width="1280" height="668" role="img" aria-label="Chart: 11 ffmpeg commands from one tutorial run on a 10-second test clip. 5 produced the output length the tutorial described; 6 did not.">
+<rect x="0.5" y="0.5" width="1279" height="667" rx="16" fill="#fcfcfb" stroke="#e1e0d9"/>
+<text x="40" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0b0b0b">Taught vs. measured: 11 commands from one ffmpeg tutorial</text>
+<text x="40" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#52514e">Length of the output file, in seconds, when each command ran as taught on a 10-second clip with audio.</text>
+<rect x="40" y="93" width="14" height="14" rx="3" fill="#2a78d6"/>
+<text x="62" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">Matched the tutorial (5)</text>
+<rect x="250" y="93" width="14" height="14" rx="3" fill="#eb6834"/>
+<text x="272" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">Did not match (6)</text>
+<path d="M420 91 V109" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="432" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">Length the tutorial described</text>
+<path d="M420.0 144 V604" stroke="#c3c2b7" stroke-width="1"/>
+<text x="420.0" y="626" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#898781">0s</text>
+<path d="M524.0 144 V604" stroke="#e1e0d9" stroke-width="1"/>
+<text x="524.0" y="626" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#898781">2s</text>
+<path d="M628.0 144 V604" stroke="#e1e0d9" stroke-width="1"/>
+<text x="628.0" y="626" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#898781">4s</text>
+<path d="M732.0 144 V604" stroke="#e1e0d9" stroke-width="1"/>
+<text x="732.0" y="626" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#898781">6s</text>
+<path d="M836.0 144 V604" stroke="#e1e0d9" stroke-width="1"/>
+<text x="836.0" y="626" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#898781">8s</text>
+<path d="M940.0 144 V604" stroke="#e1e0d9" stroke-width="1"/>
+<text x="940.0" y="626" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#898781">10s</text>
+<text x="40" y="173" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#898781" letter-spacing="0.6">TRIM FILTER</text>
+<text x="400" y="205.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-vf trim=duration=3</text>
+<path d="M420 193.0 H936.52 a4 4 0 0 1 4 4 V203.0 a4 4 0 0 1 -4 4 H420 Z" fill="#eb6834"><title>-vf trim=duration=3: described 3s, measured 10.01s</title></path>
+<path d="M576.0 188.0 V212.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M576.0 189.0 V211.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="954.52" y="205.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">10.0s  ·  audio left untrimmed</text>
+<text x="400" y="237.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-vf trim=duration=3 -c:a copy</text>
+<path d="M420 225.0 H936.0 a4 4 0 0 1 4 4 V235.0 a4 4 0 0 1 -4 4 H420 Z" fill="#eb6834"><title>-vf trim=duration=3 -c:a copy: described 3s, measured 10.00s</title></path>
+<path d="M576.0 220.0 V244.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M576.0 221.0 V243.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="954.0" y="237.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">10.0s  ·  audio left untrimmed</text>
+<text x="400" y="269.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-vf trim=end=3</text>
+<path d="M420 257.0 H936.52 a4 4 0 0 1 4 4 V267.0 a4 4 0 0 1 -4 4 H420 Z" fill="#eb6834"><title>-vf trim=end=3: described 3s, measured 10.01s</title></path>
+<path d="M576.0 252.0 V276.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M576.0 253.0 V275.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="954.52" y="269.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">10.0s  ·  audio left untrimmed</text>
+<text x="400" y="301.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-vf trim=start=3,setpts=…</text>
+<path d="M420 289.0 H936.52 a4 4 0 0 1 4 4 V299.0 a4 4 0 0 1 -4 4 H420 Z" fill="#eb6834"><title>-vf trim=start=3,setpts=…: described 7s, measured 10.01s</title></path>
+<path d="M784.0 284.0 V308.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M784.0 285.0 V307.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="954.52" y="301.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">10.0s  ·  audio left untrimmed</text>
+<text x="400" y="333.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-vf trim=start=3:end=6,setpts=…</text>
+<path d="M420 321.0 H936.52 a4 4 0 0 1 4 4 V331.0 a4 4 0 0 1 -4 4 H420 Z" fill="#eb6834"><title>-vf trim=start=3:end=6,setpts=…: described 3s, measured 10.01s</title></path>
+<path d="M576.0 316.0 V340.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M576.0 317.0 V339.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="954.52" y="333.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">10.0s  ·  audio left untrimmed</text>
+<text x="40" y="367" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#898781" letter-spacing="0.6">SEEKING</text>
+<text x="400" y="399.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-ss 3 -i in.mp4</text>
+<path d="M420 387.0 H780.52 a4 4 0 0 1 4 4 V397.0 a4 4 0 0 1 -4 4 H420 Z" fill="#2a78d6"><title>-ss 3 -i in.mp4: described 7s, measured 7.01s</title></path>
+<path d="M784.0 382.0 V406.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M784.0 383.0 V405.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="798.52" y="399.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">7.0s</text>
+<text x="400" y="431.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-ss 3 -i in.mp4 -t 3</text>
+<path d="M420 419.0 H572.0 a4 4 0 0 1 4 4 V429.0 a4 4 0 0 1 -4 4 H420 Z" fill="#2a78d6"><title>-ss 3 -i in.mp4 -t 3: described 3s, measured 3.00s</title></path>
+<path d="M576.0 414.0 V438.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M576.0 415.0 V437.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="590.0" y="431.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">3.0s</text>
+<text x="400" y="463.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-ss 3 -i in.mp4 -to 6</text>
+<path d="M420 451.0 H728.0 a4 4 0 0 1 4 4 V461.0 a4 4 0 0 1 -4 4 H420 Z" fill="#eb6834"><title>-ss 3 -i in.mp4 -to 6: described 3s, measured 6.00s</title></path>
+<path d="M576.0 446.0 V470.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M576.0 447.0 V469.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="746.0" y="463.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">6.0s  ·  described as 3s</text>
+<text x="400" y="495.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-i in.mp4 -ss 3 -to 6</text>
+<path d="M420 483.0 H572.0 a4 4 0 0 1 4 4 V493.0 a4 4 0 0 1 -4 4 H420 Z" fill="#2a78d6"><title>-i in.mp4 -ss 3 -to 6: described 3s, measured 3.00s</title></path>
+<path d="M576.0 478.0 V502.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M576.0 479.0 V501.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="590.0" y="495.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">3.0s</text>
+<text x="40" y="529" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#898781" letter-spacing="0.6">FROM THE END</text>
+<text x="400" y="561.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-sseof -2 -i in.mp4</text>
+<path d="M420 549.0 H520.52 a4 4 0 0 1 4 4 V559.0 a4 4 0 0 1 -4 4 H420 Z" fill="#2a78d6"><title>-sseof -2 -i in.mp4: described 2s, measured 2.01s</title></path>
+<path d="M524.0 544.0 V568.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M524.0 545.0 V567.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="538.52" y="561.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">2.0s</text>
+<text x="400" y="593.0" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#0b0b0b">-sseof -00:00:02 -i in.mp4</text>
+<path d="M420 581.0 H520.52 a4 4 0 0 1 4 4 V591.0 a4 4 0 0 1 -4 4 H420 Z" fill="#2a78d6"><title>-sseof -00:00:02 -i in.mp4: described 2s, measured 2.01s</title></path>
+<path d="M524.0 576.0 V600.0" stroke="#fcfcfb" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M524.0 577.0 V599.0" stroke="#0b0b0b" stroke-width="2.5" stroke-linecap="round"/>
+<text x="538.52" y="593.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#52514e">2.0s</text>
+<text x="40" y="650" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#898781">ffmpeg 6.1.1. Seeking commands were reconstructed from narration. Full log: examples/ffmpeg-trim-video/verification.md</text>
+</svg>
